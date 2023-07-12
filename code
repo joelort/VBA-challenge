@@ -1,0 +1,27 @@
+Sub TEST()
+    Worksheets("A").Activate
+
+     Cells(1, 10).Value = "Ticker"
+     Cells(1, 11).Value = "Year change"
+     Cells(1, 12).Value = "Percent change"
+     Cells(1, 13).Value = "Total stock volume"
+
+End Sub
+Sub getting_tickers()
+'lets see if this works
+Dim row As Long
+row = Cells(Rows.Count, "2018").End(xlUp).row
+ActiveSheet.Range("A2:A" & row).AdvancedFilter _
+Action:=xlFilterCopy, CopyToRange:=ActiveSheet.Range("J2"), _
+Unique:=True
+End Sub
+'it didn't work. 
+Sub sum()
+'I have no idea
+Dim total As Integer
+total = 0
+Dim conditionValue As Integer
+conditonalvalue = Range("J2").Value
+Dim totalsum As Long
+totalsum = Cells(Rows.Select, "A").End(xlUp).row
+End Sub
