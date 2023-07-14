@@ -1,8 +1,12 @@
 # VBA-challenge
 
-This challenge was hard. I coulnd't do more, than that. When I started getting into it, it was to late.
+I'm sorry but yesterday I uploaded my projects but since the code file was not the right ono, I uploaded the good one.I hope this is not too late.
 
-My code only works for make the columns, the names, tickers for every year i the work sheet.
+This challenge was hard. I couldn't do more, than that. When I started getting into it, it was too late.
 
-I tried to  have a different aproach but at the end it was not possible.
+My code only works for making the columns, the names, and tickers for every year in the worksheet.
+
+I tried to  have a different approach but in the end, it was not possible.
+
+I use some resources from the internet with some adaptions for my project.  
 
